@@ -1,0 +1,131 @@
+html{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #003f7f;
+    height: 20%;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header h2{
+    font-size: 22px;
+}
+header h2:first-child{
+    font-size: 40px;
+    color: #ffc741;
+
+}
+header img{
+    max-width: 50%;
+}
+header li{
+    padding: 0 10px;
+    font-size: 20px;
+    border: 0.1em #ffc741 solid;
+    border-radius: 1em;
+}
+header li:hover{
+    transition: 0.3s;
+    background-color: #ffc741;
+    color: rgb(100, 100, 100);
+    border-radius: 1em;
+}
+
+main{
+    background-color: white;
+}
+main a:hover{
+    color: rgba(255, 199, 65, 0.73);
+    text-decoration: underline;
+}
+main h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+main a{
+    color: black;
+    text-decoration: none;
+}
+main li{
+    color: rgb(133, 133, 133);
+    font-size: 16px;
+    padding: 0 5px;
+}
+main li a{
+    font-size: 16px;
+    color: rgb(70, 172, 255);
+}
+main li a:hover{
+    color: #ffc741;
+    text-decoration: underline;
+}
+main img{
+    max-width: 100%;
+}
+.post{
+    font-size: 22px;
+    text-align: left;
+}
+p{
+    font-size: 18px;
+    line-height: 36px;
+    text-align: justify;
+}
+img{
+    border-radius: 1em;
+    margin: 1em 0;
+}
+.img1 img{
+    max-width: 60%;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+}
+.img2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.img2 img{
+    width: auto;
+    height: 30vh;
+    object-fit: cover;
+    object-position: 0 0;
+}
+#middleimg{
+    object-position: 0 50%;
+}
+
+footer{
+    background-color: #003f7f;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+}
+footer h2{
+    color: #ffc741;
+}
+footer img{
+    max-width: 50%;
+}
+footer a{
+    color: lightgrey;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgba(255, 199, 65, 0.73);
+    text-decoration: underline;
+}
+:hover{
+    transition: 0.3s;
+}

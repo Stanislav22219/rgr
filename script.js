@@ -16,3 +16,15 @@ buttons.forEach(button => {
     delete activeSlide.dataset.active
   })
 })
+
+$(document).ready(function(){
+  $('.menu-btn').click(function(){
+    $('.nav').addClass('active');
+  });
+  $('.close-btn').click(function(){
+    $('.nav').removeClass('active');
+  });
+  $('.nav').blur(function(){  
+    $('.nav').removeClass('active');
+  })
+})
